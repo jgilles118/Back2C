@@ -1,5 +1,6 @@
 # Back2C
-C programming refresh
+## C programming refresher
+
 ```
 #include <stdio.h>
 
@@ -10,11 +11,12 @@ int main() {
 
 }
 ```
-To complie then run the file.
+## To complie then run the file, type the commmand below in the cmd or terminal.
 ```
-$ gcc hello.c -o shoutout
+$ gcc hello.c -o shoutoutLoud
 
-$ ./shoutout
+$ ./shoutoutLoud
 
 ```
-## Making some changes!!
+
+# Making some changes!!
