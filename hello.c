@@ -4,7 +4,7 @@
 
 int main() {
 
-    printf("Hello C man");
+    printf("Hello C man player");
     return 0;
 
 }
