@@ -19,4 +19,5 @@ $ ./shoutoutLoud
 
 ```
 
-# Making some changes!!
+## Ready for more action! 
+* Variables & Arithmetic
