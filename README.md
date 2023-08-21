@@ -21,3 +21,4 @@ $ ./shoutoutLoud
 
 ## Ready for more action! 
 * Variables & Arithmetic
+    1. Using the While-loop
