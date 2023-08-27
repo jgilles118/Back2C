@@ -88,4 +88,61 @@ int main(){
     return 0;
 }
 ```
-* 
+---
+## 1.5 A Collection of Programs
+
+```C
+//Character Input & Output
+
+c = gitchar() - Fetches the next input character each time it is called.
+putchar(c) - The compliment to getchar().
+
+//File Copying
+
+/* Example
+get a Character
+while (the character is not at the end of the file signal){
+
+    output the character just read;
+    ger a new character;
+    }
+*/
+
+#include <stdio.h>
+
+int main(){
+
+    int c;
+
+    c = getchar();
+
+    while(c != EOF){
+        putchar(c);
+        c = getchar();
+    }
+    
+    return 0;
+}
+
+// This can also be written
+
+#include <stdio.h>
+
+int main(){
+
+    int c;
+
+    while ((c = getchar()) != EOF){
+        
+        putchar(c);
+    }
+    
+    return 0;
+}
+```
+---
+```C
+// Charater Counting
+
+```
+
