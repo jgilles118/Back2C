@@ -1,5 +1,5 @@
 # Back2C
-## 1.1 Getting Started with the classis Hello World
+## 1.1 Getting Started with the classic Hello World
 
 ```C
 #include <stdio.h>
@@ -7,10 +7,11 @@
 int main() {
 
     printf("Hello World!");
+    
     return 0;
-
 }
 ```
+---
 ## To complie then run the file, type the commmand below in the cmd or terminal.
 ```terminal
 $ gcc hello.c -o shoutoutLoud
