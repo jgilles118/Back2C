@@ -49,7 +49,7 @@ int main() {
 }
 ```
 ---
-## Using the For loop
+## 1.3 Using the For loop
 
 ```
 
@@ -68,7 +68,7 @@ int main(){
 }
 ```
 ---
-## Symbolic Constants
+## 1.4 Symbolic Constants
 
 ```
 //Use #define declare a symbolic name or constant
