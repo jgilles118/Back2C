@@ -1,7 +1,7 @@
 # Back2C
 ## 1.1 Getting Started with the classis Hello World
 
-```
+```C
 #include <stdio.h>
 
 int main() {
@@ -12,7 +12,7 @@ int main() {
 }
 ```
 ## To complie then run the file, type the commmand below in the cmd or terminal.
-```
+```C
 $ gcc hello.c -o shoutoutLoud
 
 $ ./shoutoutLoud
@@ -88,4 +88,4 @@ int main(){
     return 0;
 }
 ```
-
+* 
