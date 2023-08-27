@@ -12,7 +12,7 @@ int main() {
 }
 ```
 ## To complie then run the file, type the commmand below in the cmd or terminal.
-```C
+```terminal
 $ gcc hello.c -o shoutoutLoud
 
 $ ./shoutoutLoud
@@ -22,7 +22,7 @@ $ ./shoutoutLoud
 ## 1.2 The While loop with Variables & Arithmetic
 
     1. Using the While-loop
-```
+```C
 #include <stdio.h>
 
 int main() {
@@ -51,7 +51,7 @@ int main() {
 ---
 ## 1.3 Using the For loop
 
-```
+```C
 
 #include<stdio.h>
 
@@ -70,7 +70,7 @@ int main(){
 ---
 ## 1.4 Symbolic Constants
 
-```
+```C
 //Use #define declare a symbolic name or constant
 #define LOWER   0
 #define UPPER   300
