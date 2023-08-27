@@ -1,5 +1,5 @@
 # Back2C
-## C programming refresher
+## 1.1 Getting Started with the classis Hello World
 
 ```
 #include <stdio.h>
@@ -18,7 +18,74 @@ $ gcc hello.c -o shoutoutLoud
 $ ./shoutoutLoud
 
 ```
+---
+## 1.2 The While loop with Variables & Arithmetic
 
-## Ready for more action! 
-* Variables & Arithmetic
     1. Using the While-loop
+```
+#include <stdio.h>
+
+int main() {
+     
+    //To convert Fahrenheit to Celcius 
+    int step, lower, upper;
+    float fahr, celsi;
+
+    //Static values for the code
+    lower = 0;
+    upper = 300;
+    step = 20;
+
+
+    fahr = lower;
+    while(fahr <= upper){
+        celsi = (5.0/9.0) * (fahr-32.0);
+
+        //Display the while loop results
+        printf("%4.0f %6.1f\n", fahr, celsi);
+        fahr = fahr + step;
+    }
+    return 0;
+}
+```
+---
+## Using the For loop
+
+```
+
+#include<stdio.h>
+
+int main(){
+
+    int fahr;
+
+    for (fahr = 0; fahr <= 300; fahr += 20){
+        
+        printf("%4d %6.1f\n", fahr, (5.9/9.0)*(fahr - 32));
+
+    }
+    return 0;
+}
+```
+---
+## Symbolic Constants
+
+```
+//Use #define declare a symbolic name or constant
+#define LOWER   0
+#define UPPER   300
+#define STEP    20
+
+int main(){
+
+    int fahr;
+
+    for (fahr = LOWER; fahr <= UPPER; fahr += STEP){
+        
+        printf("%4d %6.1f\n", fahr, (5.0/9/.0)*(fahr - 32));
+     }
+
+    return 0;
+}
+```
+
