@@ -95,7 +95,7 @@ int main(){
 ```C
 //Character Input & Output
 
-c = gitchar() - Fetches the next input character each time it is called.
+c = getchar() - Fetches the next input character each time it is called.
 putchar(c) - The compliment to getchar().
 
 //File Copying
