@@ -143,7 +143,12 @@ int main(){
 ```
 ---
 ```C
-// Charater Counting
-Coming soon
+/* Charater Counting
+ASCII - American Standard Code for Information Interchage: Mapping numbers to 256 characters.
+UNICODE - Mapping of numbers to letters for the rest of the world. More than 256 chars.
+
+Arguments - Inputs from  the user.
+
+*/
 ```
 
