@@ -150,5 +150,16 @@ UNICODE - Mapping of numbers to letters for the rest of the world. More than 256
 Arguments - Inputs from  the user.
 
 */
+
+//New format to main that can accept user input when the app is executed
+
+#include<stdio.h>
+
+int main(int argc, string argv[]){
+
+    //Your code block
+
+    return 0;    
+}
 ```
 
