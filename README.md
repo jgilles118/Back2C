@@ -19,7 +19,12 @@ $ gcc hello.c -o shoutoutLoud
 $ ./shoutoutLoud
 
 ```
----
+## The modern and easier way to compile
+```terminal
+$ make hello.c shoutoutLoud
+
+$ ./shoutoutLoud
+```
 ## 1.2 The While loop with Variables & Arithmetic
 
     1. Using the While-loop
